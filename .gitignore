@@ -1,0 +1,35 @@
+# ─── Go ───────────────────────────────────────────────────────────────────────
+# Compiled binary (same name as the module)
+clinic-agent
+cmd/api/main
+
+# Test output
+*.test
+*.out
+
+# ─── Environment / Secrets ────────────────────────────────────────────────────
+# Never commit real .env files
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ─── Frontend ─────────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+*.log.*
+*.tmp
+
+# ─── OS / Editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
