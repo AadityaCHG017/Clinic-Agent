@@ -38,7 +38,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       <aside className="sidebar">
         <div className="sidebar-logo">
           <Heart className="sidebar-logo-icon" size={24} />
-          <span className="sidebar-logo-text">CareConnect</span>
+          <span className="sidebar-logo-text">MANIPAL</span>
         </div>
 
         <nav className="sidebar-nav">
@@ -74,7 +74,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       <header className="mobile-topbar">
         <div className="mobile-topbar-left">
           <Heart size={20} className="mobile-logo-icon" />
-          <span className="mobile-logo-text">CareConnect</span>
+          <span className="mobile-logo-text">MANIPAL</span>
         </div>
         <button
           className="mobile-menu-btn"
@@ -91,7 +91,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <div className="mobile-drawer" onClick={(e) => e.stopPropagation()}>
             <div className="mobile-drawer-header">
               <Heart size={20} className="mobile-logo-icon" />
-              <span className="mobile-logo-text">CareConnect</span>
+              <span className="mobile-logo-text">MANIPAL</span>
               <button onClick={() => setMobileOpen(false)} aria-label="Close menu">
                 <X size={24} />
               </button>

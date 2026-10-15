@@ -101,18 +101,18 @@ export function generateId(): string {
 
 export function getSpecialtyIcon(specialization: string): string {
   const map: Record<string, string> = {
-    Cardiology: '❤️',
-    Dermatology: '🔬',
-    'General Physician': '🩺',
-    Orthopedic: '🦴',
-    Pediatrics: '👶',
-    ENT: '👂',
-    Dentist: '🦷',
-    Neurology: '🧠',
-    Ophthalmology: '👁️',
-    Gynecology: '🌸',
-    Psychiatry: '🧘',
-    Radiology: '📡',
+    Cardiology: '',
+    Dermatology: '',
+    'General Physician': '',
+    Orthopedic: '',
+    Pediatrics: '',
+    ENT: '',
+    Dentist: '',
+    Neurology: '',
+    Ophthalmology: '',
+    Gynecology: '',
+    Psychiatry: '',
+    Radiology: '',
   };
   return map[specialization] || '🏥';
 }
